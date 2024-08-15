@@ -9,9 +9,26 @@
   "scripts": {
     "start": "node bin/cli.js"
   },
-  "author": "Alberto Linde",
+  "author": "Alberto Linde <abreulindealberto@gmail.com>",
   "license": "MIT",
   "type": "module",
+  "homepage": "https://www.albertolinde.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlbertoLinde/cloudwatch-logs-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AlbertoLinde/cloudwatch-logs-cli/issues"
+  },
+  "keywords": [
+    "AWS",
+    "CloudWatch",
+    "logs",
+    "CLI",
+    "command-line",
+    "logging",
+    "developer-tools"
+  ],
   "dependencies": {
     "@aws-sdk/client-cloudwatch-logs": "^3.631.0",
     "@aws-sdk/client-sts": "^3.631.0",
